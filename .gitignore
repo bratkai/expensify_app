@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-node_modules
-=======
 node_modules/
->>>>>>> 99ccbbb... Initial commit
-=======
-node_modules/
->>>>>>> d5e794d... Setup production Webpack build
+public/bundles.js
+public/bundles.js.map
+public/stlyes.css
+public/styles.css.map
+
+
