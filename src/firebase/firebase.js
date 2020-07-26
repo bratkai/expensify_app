@@ -1,4 +1,5 @@
 import * as firebase from 'firebase';
+// import { Provider } from 'react-redux';
 
 const firebaseConfig = {
   apiKey: process.env.FIREBASE_API_KEY,
@@ -15,9 +16,11 @@ firebase.initializeApp(firebaseConfig);
 //   firebase.analytics();
 
 const database = firebase.database();
+const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
 
 export {
   firebase,
+  googleAuthProvider,
   database as
   default
 };
